@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='header'>
       <div className='logo'>
-        <img src="./workspaces/shoplevel/media/shopLevel_logo.jpg"></img>
+        <img src="/workspaces/shoplevel/public/media/shopLevel_logo.jpg"></img>
       </div>
       <span>Elevated Fashion: Key is the ShopLevel</span>
       <div className='search'>
