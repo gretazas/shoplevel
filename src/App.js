@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Header from './Header'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     // BEM
     <div className="app">
-      <h1>Aloha! 🚀 </h1>
       <Header />
       {/* Home */}
     </div>

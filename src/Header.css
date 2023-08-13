@@ -1,0 +1,53 @@
+/* Header */
+.header {
+    height:100px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: blanchedalmond;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin: 40px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.search input {
+    margin-left:  15px;
+}
+
+.firstLine {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.basketTotal {
+    align-self: center;
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+.icon {
+    align-self: center;
+}
