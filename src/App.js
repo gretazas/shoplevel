@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Header'
+import Home from './Home'
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     // BEM
     <div className="app">
       <Header />
-      {/* Home */}
+      <Home />
     </div>
   );
 }

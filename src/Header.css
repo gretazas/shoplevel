@@ -7,6 +7,7 @@
     top: 0;
     z-index: 100;
     background-color: blanchedalmond;
+    border-bottom: 2px solid olive;
 }
 
 .logo img {
@@ -19,6 +20,12 @@
     display: flex;
     flex-direction: column;
     margin: 30px;
+}
+
+#totalOption {
+    border: 2px solid black ;
+    padding: 10px;
+    box-shadow:  .2em .2em olive;
 }
 
 .nav {
@@ -50,4 +57,9 @@
 
 .icon {
     align-self: center;
+}
+
+hr {
+    border-color: olive;
+    height: 2px;
 }

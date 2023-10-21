@@ -14,11 +14,11 @@ function Header() {
   return (
     <div className='header'>
       <div className='logo'>
-        <img src="/media/shopLevel_logo.jpg"></img>
+        <img src="/media/shopLevel_logo.jpg" alt='logo'></img>
       </div>
-      <span>Elevated Fashion: Key is the ShopLevel</span>
+      <span className='d-md-block'>Elevated Fashion: Key is the ShopLevel</span>
       <div className='search'>
-          <input className='search_input, w-75'>
+          <input className='search_input w-75 '>
           </input>
           <SearchIcon
           className='searchIcon'/>
@@ -48,7 +48,12 @@ function Header() {
               Orders
             </span>
         </div>
-        <span className='basketTotal'>125.50 €</span>
+        <div className='option' id='totalOption'>
+            <span className='firstLine'>
+                  Total
+            </span>
+            <span className='basketTotal'>125.50 €</span>
+        </div>
       </div>
     </div>
   )
