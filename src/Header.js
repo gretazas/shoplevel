@@ -4,7 +4,6 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LoginIcon from '@mui/icons-material/Login';
-import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -41,17 +40,16 @@ function Header() {
               Profile
             </span>
         </div>
-        <Link to='/checkout' style={{color:"black"}}>
-            <div className='option border-1 rounded-2' id='totalOption'>
-              <div className=''>
-                  <ShoppingBasketIcon className='icon m-1'/>
-                  <span className='firstLine m-3'>
-                    Orders
-                  </span>
-              </div>
-              <span className='basketTotal fw-bold'>Total € 125.50</span>
-            </div>
-        </Link>
+
+        <div className='option border-1 rounded-2' id='totalOption'>
+          <div className=''>
+              <ShoppingBasketIcon className='icon'/>
+              <span className='firstLine'>
+                Orders
+              </span>
+          </div>
+          <span className='basketTotal fw-bold'>Total € 125.50</span>
+        </div>
       </div>
     </div>
   )
