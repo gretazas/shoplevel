@@ -18,6 +18,7 @@ function Checkout() {
             <div className="price col-1 d-flex justify-self-center mx-4 fw-bold">€ 29.99</div>
         </div>
         <hr></hr>
+        <Subtotal />
     </div>
   )
 }
