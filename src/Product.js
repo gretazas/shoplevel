@@ -8,7 +8,7 @@ function Product() {
         <div className='product__info col'>
           <img className='product_img row p-0' src='/media/sopping_bags.jpg' alt='product with category {}' />
           <div className="d-flex justify-content-center">
-            <button className='btn btn-warning btn-sm row' type="button" data-toggle="button" aria-pressed="false" autocomplete="off">
+            <button className='btn btn-warning btn-sm row' type="button" data-toggle="button" aria-pressed="false" autoComplete="off">
               Add to basket
             </button>
           </div>
