@@ -5,9 +5,11 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LoginIcon from '@mui/icons-material/Login';
 import {Link} from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 
 
 function Header() {
+  const [ { basket }, dispatch] = useStateValue();
   // if (user) {
   //   userProfile = document.getElementById('profile').innerHTML = `{user.name}`
   //   ReactDOM.render(user.name, userProfile)
@@ -54,7 +56,7 @@ function Header() {
               <span className='firstLine'>
                     Total
               </span>
-              <span className='basketTotal'>125.50 €</span>
+              <span className='basketTotal'>{ basket?.length } €</span>
           </div>
         </Link>
       </div>
