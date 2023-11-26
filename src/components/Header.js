@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LoginIcon from '@mui/icons-material/Login';
 import {Link} from 'react-router-dom';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../StateProvider';
 
 
 function Header() {

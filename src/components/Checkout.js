@@ -1,12 +1,22 @@
 import React from 'react';
 import './Checkout.css';
-import Subtotal from './Subtotal'
+import Subtotal from './Subtotal';
+import { useStateValue } from  '../StateProvider';
+
 
 function Checkout() {
+  
   return (
     <div className='checkout'>
          <h1>Shopping Bag</h1>
       <div className="checkout_col col m-5">
+      <div className="checkout_row row">
+            <div className="quantity col-1  fw-bold">Qnt</div>
+            <div className="description col-5">Description</div>
+            <div className='col-1'>Image</div>
+            <div className="price col-1">Price</div>
+        </div>
+        <hr></hr>
         <div className="checkout_row row">
             <div className="quantity col-1  fw-bold">1</div>
             <div className="description col-5">hgfsodgo ueryfdbiua feudyreg f urgeurfyg gg</div>
